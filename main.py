@@ -52,7 +52,7 @@ while running:
     screen.fill("black")
 
     if is_out_of_bounds():
-        show_message("Perdiste. Pulsa cualquier tecla para reiniciar.")
+        show_message("Try again! Press any key to restart")
         pygame.time.wait(1000)  
         snake_length = 1
         target.center = generate_starting_position()
